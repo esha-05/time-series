@@ -155,9 +155,4 @@ Training converged at **epoch 12–25** (varies per run) with early stopping (pa
 
 **`from preprocess import ...` fails inside model files**  
 → Fixed: Each model file inserts its own `src/` directory into `sys.path` using `os.path.dirname(os.path.abspath(__file__))`.
-
----
-
-## 📄 License
-
-MIT — free to use, modify, and distribute.
+-----
